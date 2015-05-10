@@ -1,0 +1,166 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      5795,        157]
+NotebookOptionsPosition[      5010,        123]
+NotebookOutlinePosition[      5538,        146]
+CellTagsIndexPosition[      5454,        141]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  "\"\</Users/tedrogers/Desktop/Calculations/alphas\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6217731922358627`*^9, 3.6217732146711206`*^9}}],
+
+Cell[BoxData["\<\"/Users/tedrogers/Desktop/Calculations/alphas\"\>"], "Output",
+ CellChangeTimes->{3.6217732151385117`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"<<", "Coupling.m"}]], "Input",
+ CellChangeTimes->{{3.62177351875931*^9, 3.6217735225454197`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "alpha"}]], "Input",
+ CellChangeTimes->{{3.621773724499082*^9, 3.621773726691936*^9}, {
+  3.6217742382792273`*^9, 3.6217742402726603`*^9}}],
+
+Cell[BoxData[
+ StyleBox["\<\"alpha[\!\(\*SuperscriptBox[\(\[Mu]\), \(2\)]\)] is the PDG \
+four loop running coupling with flavor transitions.\"\>", "MSG"]], "Print", \
+"PrintUsage",
+ CellChangeTimes->{3.621774399285255*^9},
+ CellTags->"Info3621759999-4487195"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"alpha", "[", 
+    RowBox[{"mu", "^", "2"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"mu", ",", "1", ",", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.621774243359717*^9, 3.621774291046095*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1: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
+     "]]}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{None, None},
+  AxesOrigin->{5., 0.16},
+  Method->{},
+  PlotRange->{{1, 20}, {0.15416298426487648`, 0.31833950841596903`}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{
+    Scaled[0.02], 
+    Scaled[0.02]}]], "Output",
+ CellChangeTimes->{3.621774293096016*^9, 3.62177440074146*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 685},
+WindowMargins->{{28, Automatic}, {36, Automatic}},
+ShowSelection->True,
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info3621759999-4487195"->{
+  Cell[1225, 42, 260, 5, 45, "Print",
+   CellTags->"Info3621759999-4487195"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info3621759999-4487195", 5352, 135}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 189, 3, 28, "Input"],
+Cell[771, 27, 123, 1, 28, "Output"]
+}, Open  ]],
+Cell[909, 31, 121, 2, 28, "Input"],
+Cell[CellGroupData[{
+Cell[1055, 37, 167, 3, 28, "Input"],
+Cell[1225, 42, 260, 5, 45, "Print",
+ CellTags->"Info3621759999-4487195"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1522, 52, 266, 7, 28, "Input"],
+Cell[1791, 61, 3203, 59, 273, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

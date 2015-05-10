@@ -1,0 +1,9 @@
+step1:  open anaconda from the launcher
+step2:  lauch ipython. The browser will open showing the home directory
+step3:  Navigate to location of python TMD folder
+step4:  go to examples/ex2....
+step5:  load TMD_PDF.ipynb. If it fails try v3.  
+
+
+
+
